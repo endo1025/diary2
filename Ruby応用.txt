@@ -1,0 +1,8 @@
+Rubyコマンドまとめ
+
+コンテナ内に入る
+docker container exec -it ruby_advanced bash
+
+関数の実行
+
+ruby -r ./ruby_algorithm/answer.rb -e 'p algorithm_01(15)'
